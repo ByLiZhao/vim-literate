@@ -14,7 +14,7 @@ int solve_poly5(poly5, solution);
 double circle_circumference(double diameter); 
 ```
 
-"a₀x⁵+ a₁x⁴ + a₂x³ + a₃x² + a₄x + a₅ = 0" or "C = 2ℼr = ℼd" looks better and more lightweighted than embedding `Latex` formulaes in the documentation section and using an external tool to generate the eye candy. Since it is just plain Unicode strings, it can just be copied and pasted, and searched using grep-like tools (if you know how to input those letters). 
+"a₀x⁵+ a₁x⁴ + a₂x³ + a₃x² + a₄x + a₅ = 0" or "C = 2ℼr = ℼd" looks better and more lightweighted than embedding `Latex` formulas in the documentation section and using an external tool to generate the eye candy. Since it is just plain Unicode strings, it can just be copied and pasted, and searched using grep-like tools (if you know how to input those letters). 
 
 # Insllation 
 - Mnaul installation
