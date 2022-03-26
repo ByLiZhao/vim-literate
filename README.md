@@ -6,17 +6,20 @@ able to write the following in his C code:
 #include<complex.h>
 typedef double complex solution[5];
 typedef double poly5[5];
-    
-// Solve polynomial a₀x⁵+ a₁x⁴ + a₂x³ + a₃x² + a₄x + a₅ = 0 
+
+// Solve polynomial a₀x⁵+ a₁x⁴ + a₂x³ + a₃x² + a₄x + a₅ = 0
 int solve_poly5(poly5, solution);
 
 // C = 2ℼr = ℼd
-double circle_circumference(double diameter); 
+double circle_circumference(double diameter);
+
+// return z = xʸ
+double power(double x, double y);
 ```
 
-"a₀x⁵+ a₁x⁴ + a₂x³ + a₃x² + a₄x + a₅ = 0" or "C = 2ℼr = ℼd" looks better and more lightweighted than embedding `Latex` formulaes in the documentation section and using an external tool to generate the eye candy. Since it is just plain Unicode strings, it can just be copied and pasted, and searched using grep-like tools (if you know how to input those letters). 
+"a₀x⁵+ a₁x⁴ + a₂x³ + a₃x² + a₄x + a₅ = 0" or "C = 2ℼr = ℼd" looks better and more lightweighted than embedding `Latex` formulaes in the documentation section and using an external tool to generate the eye candy. Since it is just plain Unicode strings, it can just be copied and pasted, and searched using grep-like tools (if you know how to input those letters).
 
-# Insllation 
+# Insllation
 - Mnaul installation
  ```bash
  mkdir -p ~/.vim/pack/documentation/start
@@ -25,14 +28,14 @@ double circle_circumference(double diameter);
  ```
  - Use [vim-plug](https://github.com/junegunn/vim-plug)
  Add the following in your `vimrc`:
- 
+
  ```bash
  Plug 'ByLiZhao/vim-literate'
  ```
- 
+
  # Features
- 
- 
+
+
  # License
  Copyright © John Z. Li. Distributed under the same terms as Vim itself. See `:help license`.
- 
+
