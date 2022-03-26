@@ -1246,7 +1246,7 @@ if has("gui_running")
         " box-drawing-light-horizontal, ─
         inoremenu Literate.Misc.─(box-draw-horizontal):\ <a-j>-. <c-v>u2500
         " box-drawing-vertical-and-right, ├
-        inoremenu Literate.Misc.─(box-draw-vertical-and-right):\ <a-j>vr <c-v>u251c
+        inoremenu Literate.Misc.├(box-draw-vertical-and-right):\ <a-j>vr <c-v>u251c
         " ellipses horizontal, …
         " inoremenu Literate.Misc.etc(ellipses):\ <a-j>.. <c-v>u2026
         inoremenu Literate.Misc.…(ellipses):\ <a-j>. <c-v>u2026
