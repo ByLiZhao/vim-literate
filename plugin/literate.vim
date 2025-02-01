@@ -1180,11 +1180,11 @@ if has("gui_running")
         " ballot box with x, ☒
         inoremap <a-j>bx <c-v>u2612
         " cross mark, ❌,
-        inoremap <a-j>xx <c-v>u274c
+        inoremap <a-j>bX <c-v>u274c
         " bollot box with check, ☑
         inoremap <a-j>by <c-v>u2611
         " white heavy check mark, ✅
-        inoremap <a-j>yy <c-v>u2705
+        inoremap <a-j>bY <c-v>u2705
 endif
 " }}}
 
@@ -1200,13 +1200,13 @@ if has("gui_running")
         inoremenu Literate.Bullet.☒(bullet-box-x):\ <a-j>bx <c-v>u2612
         " cross mark, ❌,
         inoremap <a-j>xx <c-v>u274c
-        inoremenu Literate.Bullet.❌(bullet-box-x):\ <a-j>xx <c-v>u274c
+        inoremenu Literate.Bullet.❌(bullet-box-x):\ <a-j>bX <c-v>u274c
         " bollot box with check, ☑
         inoremap <a-j>by <c-v>u2611
         inoremenu Literate.Bullet.☑(bullet-box-y):\ <a-j>by <c-v>u2611
         " white heavy check mark, ✅
         inoremap <a-j>yy <c-v>u2705
-        inoremenu Literate.Bullet.✅(bullet-yes):\ <a-j>yy <c-v>u2705
+        inoremenu Literate.Bullet.✅(bullet-yes):\ <a-j>bY <c-v>u2705
 endif
 " }}}
 
@@ -1218,9 +1218,9 @@ if has("gui_running")
         " box-drawing-light-horizontal
         inoremap <a-j>-- <c-v>u2500
         " box-draw-vertical-and-right,
-        inoremap <a-j>vr <c-v>u251c
+        inoremap <a-j>-v <c-v>u251c
         " ellipses horizontal, …
-        inoremap <a-j>. <c-v>u2026
+        inoremap <a-j>.. <c-v>u2026
         " (mathematical) left angle bracket ⟨
         inoremap <a-j>[ <c-v>u27e8
         " (methemetical) right angle bracket, ⟩
@@ -1231,9 +1231,9 @@ if has("gui_running")
         " as quotation and ditto mark
         inoremap <a-j>> <c-v>u00bb
         " copyright mark, captital O and c,©.
-        inoremap <a-j>oc <c-v>u00a9
+        inoremap <a-j>@ <c-v>u00a9
         " trademark character, ®
-        inoremap <a-j>or <c-v>u00ae
+        inoremap <a-j>$ <c-v>u00ae
 
 endif
 "  }}}
@@ -1244,12 +1244,12 @@ if has("gui_running")
         " mid dot, ·, don't confuse with dot operator ⋅
         inoremenu Literate.Misc.·(mid-dot):\ <a-j>-. <c-v>u00b7
         " box-drawing-light-horizontal, ─
-        inoremenu Literate.Misc.─(box-draw-horizontal):\ <a-j>-. <c-v>u2500
+        inoremenu Literate.Misc.─(box-draw-horizontal):\ <a-j>-- <c-v>u2500
         " box-drawing-vertical-and-right, ├
-        inoremenu Literate.Misc.├(box-draw-vertical-and-right):\ <a-j>vr <c-v>u251c
+        inoremenu Literate.Misc.├(box-draw-vertical-and-right):\ <a-j>-v <c-v>u251c
         " ellipses horizontal, …
         " inoremenu Literate.Misc.etc(ellipses):\ <a-j>.. <c-v>u2026
-        inoremenu Literate.Misc.…(ellipses):\ <a-j>. <c-v>u2026
+        inoremenu Literate.Misc.…(ellipses):\ <a-j>.. <c-v>u2026
         " (mathematical) left angle bracket ⟨
         inoremenu Literate.Misc.⟨(math-left-angle-braket):\ <a-j>[ <c-v>u27e8
         " (methemetical) right angle bracket, ⟩
@@ -1260,9 +1260,9 @@ if has("gui_running")
         " as quotation and ditto mark
         inoremenu Literate.Misc.»(right-guillement):\ <a-j>> <c-v>u00bb
         " copyright mark, captital O and c,©.
-        inoremenu Literate.Misc.©(copyright-symbol):\ <a-j>oc <c-v>u00a9
+        inoremenu Literate.Misc.©(copyright-symbol):\ <a-j>@ <c-v>u00a9
         " trademark character, ®   ├ ─ ─
-        inoremenu Literate.Misc.®(trademark-symbol):\ <a-j>or <c-v>u00ae
+        inoremenu Literate.Misc.®(trademark-symbol):\ <a-j>$ <c-v>u00ae
 endif
 "  }}}
 
