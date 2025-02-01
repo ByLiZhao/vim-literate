@@ -1200,15 +1200,15 @@ if has("gui_running")
         inoremenu Literate.Bullet.☒(bullet-box-x):\ <a-j>bx <c-v>u2612
         " cross mark, ❌,
         inoremap <a-j>xx <c-v>u274c
-        inoremenu Literate.Bullet.❌(heavy cross mark):\ <a-j>bX <c-v>u274c
+        inoremenu Literate.Bullet.❌(heavy-cross-mark):\ <a-j>bX <c-v>u274c
         " bollot box with check, ☑
         inoremap <a-j>by <c-v>u2611
-        inoremenu Literate.Bullet.☑((box check mark):\ <a-j>by <c-v>u2611
+        inoremenu Literate.Bullet.☑((box-check-mark):\ <a-j>by <c-v>u2611
         " bollot box with check, ☑
         inoremap <a-j>by <c-v>u2611
         " white heavy check mark, ✅
         inoremap <a-j>yy <c-v>u2705
-        inoremenu Literate.Bullet.✅(heavy check mark):\ <a-j>bY <c-v>u2705
+        inoremenu Literate.Bullet.✅(heavy-check-mark):\ <a-j>bY <c-v>u2705
 endif
 " }}}
 
