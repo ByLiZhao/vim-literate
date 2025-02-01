@@ -60,6 +60,12 @@ Unicode characters (most of them are  math symbols) in Vim.
  ```
 
  # Features
+ 1. `<Alt-g>` started shortcuts to input Greek letter, for example, `<a-g>a` will input Greek letter alpha, that is 'α'
+ 2. `<Alt-p>` started shortcuts to input Superscripts, for example, `x<a-p>2` will get 'x²', that is "x to power 2'
+ 3. `<Alt-b>` started shortcuts to input Subscripts, for example, `a<a-b>m` will get 'aₘ', that is "m-th element of a sequence".
+ 4. `<Alt-i>` started shortcuts, to input Math infix operators, for example, `A<a-i>==B` will get 'A ≡ B', that is "A is identical to B".
+ 5. `<Alt-s>` started shortcuts, to input Set related symbols, for example, `a<a-s>iS` will get 'a ∈ S', that is "a is in S".
+ 6. Some `<Alt-i>` shortcuts are for integral symbols, for example, `<a-i>ô
 
 
  # License

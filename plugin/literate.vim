@@ -967,21 +967,21 @@ if has("gui_running")
         " 3-diem integral, ∭
         inoremap <a-i>3 <c-v>u222d
         " curve integral, ∮
-        inoremap <a-i>f1 <c-v>u222e
+        inoremap <a-i>01 <c-v>u222e
         " surface integral, ∯
-        inoremap <a-i>f2 <c-v>u222f
+        inoremap <a-i>02 <c-v>u222f
         " volume integral,∰
-        inoremap <a-i>f3 <c-v>u2230
+        inoremap <a-i>03 <c-v>u2230
         " clockwiase integral, ∱
-        inoremap <a-i>, <c-v>u2231
+        inoremap <a-i>5 <c-v>u2231
         "" counter clockwise integral, ⨑
-        inoremap <a-i>c <c-v>u2a11
+        inoremap <a-i>6 <c-v>u2a11
         " clockwise contour integral, ∲
-        inoremap <a-i>f, <c-v>u2232
+        inoremap <a-i>7, <c-v>u2232
         " counter clockwise contour integral, ∳
-        inoremap <a-i>fc <c-v>u2233
+        inoremap <a-i>8 <c-v>u2233
         " Furier transformation, ℱ
-        inoremap <a-i>F <c-v>u2131
+        inoremap <a-i>9 <c-v>u2131
 endif
 " }}}
 
@@ -994,21 +994,21 @@ if has("gui_running")
         " 3-diem integral, ∭
         inoremenu Literate.Integral.∭(3-dim-integral):\ <a-i>3 <c-v>u222d
         " curve integral, ∮
-        inoremenu Literate.Integral.∮(curve-integral):\ <a-i>f1 <c-v>u222e
+        inoremenu Literate.Integral.∮(curve-integral):\ <a-i>01 <c-v>u222e
         " surface integral, ∯
-        inoremenu Literate.Integral.∯(surface-integral):\ <a-i>f2 <c-v>u222f
+        inoremenu Literate.Integral.∯(surface-integral):\ <a-i>02 <c-v>u222f
         " volume integral,∰
-        inoremenu Literate.Integral.∰(volume-integral):\ <a-i>f3 <c-v>u2230
+        inoremenu Literate.Integral.∰(volume-integral):\ <a-i>03 <c-v>u2230
         " clockwiase integral, ∱
-        inoremenu Literate.Integral.∱(clockwise-integral):\ <a-i>>, <c-v>u2231
+        inoremenu Literate.Integral.∱(clockwise-integral):\ <a-i>5 <c-v>u2231
         "" counter clockwise integral,⨑
-        inoremenu Literate.Integral.⨑(counter-clockwise-integral):\ <a-i>c <c-v>u2a11
+        inoremenu Literate.Integral.⨑(counter-clockwise-integral):\ <a-i>6 <c-v>u2a11
         " clockwise contour integral, ∲
-        inoremenu Literate.Integral.∲(clockwise-contour-integral):\ <a-i>f, <c-v>u2232
+        inoremenu Literate.Integral.∲(clockwise-contour-integral):\ <a-i>7 <c-v>u2232
         " counter clockwise contour integral, ∳
-        inoremenu Literate.Integral.∳(counter-clockwise-contour-integral):\ <a-i>fc <c-v>u2233
+        inoremenu Literate.Integral.∳(counter-clockwise-contour-integral):\ <a-i>8 <c-v>u2233
         " Furier transformation, ℱ
-        inoremenu Literate.Integral.ℱ(Furier-transformation):\ <a-i>F <c-v>u2131
+        inoremenu Literate.Integral.ℱ(Furier-transformation):\ <a-i>9 <c-v>u2131
 endif
 " }}}
 
