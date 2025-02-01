@@ -1218,11 +1218,11 @@ if has("gui_running")
         " mid dot, ·, don't confuse with dot operator ⋅
         inoremap <a-j>-. <c-v>u00b7
         " box-drawing-light-horizontal
-        inoremap <a-j>-- <c-v>u2500
+        inoremap <a-j>-h <c-v>u2500
         " box-draw-vertical-and-right,
         inoremap <a-j>-v <c-v>u251c
         " ellipses horizontal, …
-        inoremap <a-j>.. <c-v>u2026
+        inoremap <a-j>-- <c-v>u2026
         " (mathematical) left angle bracket ⟨
         inoremap <a-j>[ <c-v>u27e8
         " (methemetical) right angle bracket, ⟩
@@ -1246,12 +1246,12 @@ if has("gui_running")
         " mid dot, ·, don't confuse with dot operator ⋅
         inoremenu Literate.Misc.·(mid-dot):\ <a-j>-. <c-v>u00b7
         " box-drawing-light-horizontal, ─
-        inoremenu Literate.Misc.─(box-draw-horizontal):\ <a-j>-- <c-v>u2500
+        inoremenu Literate.Misc.─(box-draw-horizontal):\ <a-j>-h <c-v>u2500
         " box-drawing-vertical-and-right, ├
         inoremenu Literate.Misc.├(box-draw-vertical-and-right):\ <a-j>-v <c-v>u251c
         " ellipses horizontal, …
         " inoremenu Literate.Misc.etc(ellipses):\ <a-j>.. <c-v>u2026
-        inoremenu Literate.Misc.…(ellipses):\ <a-j>.. <c-v>u2026
+        inoremenu Literate.Misc.…(ellipses):\ <a-j>-- <c-v>u2026
         " (mathematical) left angle bracket ⟨
         inoremenu Literate.Misc.⟨(math-left-angle-braket):\ <a-j>[ <c-v>u27e8
         " (methemetical) right angle bracket, ⟩
