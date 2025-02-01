@@ -67,7 +67,9 @@ Unicode characters (most of them are  math symbols) in Vim.
  5. `<Alt-s>` started shortcuts, to input Set related symbols, for example, `a<a-s>iS` will get 'a ∈ S', that is "a is in S".
  6. `<Alt-i>` started shortcuts followed by numbers are for integral symbols, for example, `<a-i>1` will get '∫', the 1-dimensional integral sign.
  7. `<Alt-j>` started shortcuts are for misalliances symbols.
- -
+ - Shortcuts to input French related symbols, for example `<a-j>a` will get  'â', the circumflex a.
+ - Shortcuts to input bullet symbols, for example, `<a-j>b` will get '∙', the bullet point symbol
+ - Other symbols, for example, `<a-j><` and `<a-j>>` will input '«' and '»', respectively, the left and right guillement symbols.
 
 
  # License
